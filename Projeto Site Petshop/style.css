@@ -1,0 +1,156 @@
+/* Configurações Globais */
+
+*{
+    font-family: Sora,Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #263138;
+}
+
+p {
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #FF9A6C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.menu a {
+    color: white;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
+
+#inicio{
+    display: flex;
+    align-items: center;
+    gap:32px;
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+.paragrafo-inicio{
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+
+.botao-comum {
+    background-color: #FF9A6C;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.botao-transparente {
+    background-color: transparent;
+    color: #FF9A6C;
+    padding: 16px 32px;
+    text-underline-offset: 4px
+}
+
+/* Essa propriedade permite que a imagem fique de forma absoluta atras de um elemento que podemos determinar */
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    padding: 64px 80px;
+}
+
+#clinica li {
+    /* margem debaixo */
+    margin-bottom: 16px;
+    /* margem a esquerda  */
+    margin-left: 32px;
+}
+
+#farmacia {
+    padding: 64px 80px;
+    text-align: center;
+
+}
+
+/* formatando o alinahmento automático da imagem da seção */
+#farmacia img {
+    margin: 64px auto;
+}
+
+#farmacia .paragrafo {
+    /* definidndo que eu não quero que o elemento ultrapasse essa largura que eu defini */
+    max-width: 950px;
+    /* calculo automatico da margem permitindo que o elemento fique centralizado */
+    margin: 0 auto;
+
+}
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #FF9A6C;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 22px;
+
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida.paragrafo {
+    border-right: 1px solid #FF725e;
+    border-bottom: 1px solid #FF725e;
+    border-left: 1px solid #FF725e;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+}
+
+
+
+
+
+
+
+
